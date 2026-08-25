@@ -1,0 +1,23 @@
+{
+  "appId": "site.exchangeprojects.app",
+  "appName": "ExChange Projects",
+  "webDir": "www",
+  "server": {
+    "url": "https://exchangeprojects.site",
+    "cleartext": false,
+    "allowNavigation": [
+      "exchangeprojects.site",
+      "*.exchangeprojects.site",
+      "telegram.org",
+      "*.telegram.org",
+      "oauth.telegram.org",
+      "t.me",
+      "*.t.me",
+      "github.com",
+      "*.github.com"
+    ]
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}
